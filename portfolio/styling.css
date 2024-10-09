@@ -1,0 +1,104 @@
+/* General Body Styling */
+/* General Body Styling */
+body {
+    background-color: #f5f3db; /* Light beige background */
+    color: #59a99d; /* Blue text color */
+    font-family: Arial, sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar Styling */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f3db; /* Same as background color */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for navbar */
+}
+
+/* Logo section */
+.logo img {
+    max-height: 80px; /* Adjusted to make sure it fits in the navbar */
+    max-width: 100%;
+    margin-left: 10px; /* Slight margin to avoid sticking to the side */
+}
+
+/* Name Styling */
+.name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #59a99d;
+    margin-right: 40px; /* Spacing to the right */
+}
+
+/* Center section (Links) */
+.center-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between links */
+}
+
+.center-section a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #59a99d;
+    text-decoration: none;
+}
+
+.center-section a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome Message Styling */
+.oswald-welcome {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #59a99d;
+    margin-top: 120px; /* Pushes the message below the navbar */
+    margin-bottom: 50px; /* Reduced space between welcome and image section */
+}
+
+/* About Section Styling */
+.about-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 10%; /* Horizontal padding */
+    margin-top: 100px; /* Reduced top margin to decrease space between sections */
+}
+
+/* Image Container */
+.image-container {
+    flex: 1;
+    text-align: left;
+}
+
+.profile-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+}
+
+/* Caption Styling */
+.caption-container {
+    flex: 2;
+    padding-left: 40px; /* Spacing between image and caption */
+    text-align: left;
+}
+
+.caption-container p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #59a99d;
+}
